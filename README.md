@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there ucdo👋
 
 <!--
 **ucdo/ucdo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+- 🌱 I’m currently learning PHP and C
+- 🤔 I’m looking for help with English and Psychology
+- 💬 Ask me about ucdo [ukudo]
+- 📫 How to reach me: phpsarc@gmail.com
+- 😄 Pronouns: hard working
+- ⚡ Fun fact: force me learn PHP and C
+- 🐊 say to me: do not limit yourself
+
+
+if you look this profile,send an email to me,ask me the progress about PHP and C learning.
