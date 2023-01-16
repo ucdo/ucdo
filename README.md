@@ -8,6 +8,5 @@ This is a ✨ _special_ ✨ repository:
 - 📫 How to reach me: phpsarc@gmail.com
 - 😄 Pronouns: hard working
 - 🐊 Say to me: do not limit yourself
-
-
-If you look this profile,send an email and ask learning progress.
+  
+  
