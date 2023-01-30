@@ -9,4 +9,6 @@ This is a ✨ _special_ ✨ repository:
 - 😄 Pronouns: hard working
 - 🐊 Say to me: do not limit yourself
   
-  
+ dir: 
+ project:My project
+ study:record problem I met and consider.
