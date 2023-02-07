@@ -131,10 +131,55 @@
       <path value="$PROJECT_DIR$/project/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/project/vendor/nette/utils" />
       <path value="$PROJECT_DIR$/project/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/project/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/database" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/memory" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/engine" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/command" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/engine-contract" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/redis" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/cache" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/devtool" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/config" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/testing" />
+      <path value="$PROJECT_DIR$/project/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/context" />
+      <path value="$PROJECT_DIR$/project/vendor/laminas/laminas-mime" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/http-server" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/server" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/event" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/coordinator" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/di" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/macroable" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/model-listener" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/dispatcher" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/pool" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/http-message" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/guzzle" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/db-connection" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/utils" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/contract" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/framework" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/process" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/logger" />
+      <path value="$PROJECT_DIR$/project/vendor/hyperf/exception-handler" />
+      <path value="$PROJECT_DIR$/project/vendor/php-di/phpdoc-reader" />
+      <path value="$PROJECT_DIR$/project/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/project/vendor/swoole/ide-helper" />
+      <path value="$PROJECT_DIR$/project/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/project/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/project/vendor/psr/http-server-middleware" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <PhpStanConfiguration tool_path="$PROJECT_DIR$/project/vendor/bin/phpstan" />
+    </PhpStan_settings>
+  </component>
   <component name="PhpStanOptionsConfiguration">
+    <option name="config" value="$PROJECT_DIR$/project/phpstan.neon" />
+    <option name="memoryLimit" value="300M" />
     <option name="transferred" value="true" />
   </component>
   <component name="PhpUnit">
