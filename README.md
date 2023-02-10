@@ -9,4 +9,5 @@ This is a ✨ _special_ ✨ repository:
 - 😄 Pronouns: hard working
 - 🐊 Say to me: do not limit yourself
   
-好好提升自己，好好赚钱。
+
+
