@@ -16,7 +16,7 @@ class PackSql
     public function packSql():array
     {
         $config = [
-            'HOSTNAME' => '172.24.208.1',
+            'HOSTNAME' => '172.26.16.1',
             'DATABASE' => 'local',
             'USERNAME' => 'root',
             'PASSWORD' => 'root'

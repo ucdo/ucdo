@@ -1,5 +1,7 @@
 <?php
 namespace Ucdo\Update\Controller;
+use ZipArchive;
+
 /**
  * pack file as a zip
  */
@@ -8,6 +10,8 @@ class PackFile{
     const ignore = [
         '.env','.gitignore','.idea','.vscode'
     ];
+
+    const file = '/mnt/d/phpenv/www/swoole-webhook';
 
     /**
      * @return bool
@@ -27,9 +31,10 @@ class PackFile{
         return true;
     }
 
-    public function tidyFiles(string $path = '/mnt/d/phpEnv/www/farm_backend'):array
+    public function tidyFiles(string $path = '/'):array
     {
-        $files = @scandir($path);
+        $src = self::file . $path;
+        $files = @scandir($src);
         $list = [];
         if(empty($files)){
             return $list;
@@ -43,12 +48,12 @@ class PackFile{
                 continue;
             }
 
-            if(is_dir($path . '/' . $v)){
-                $list = array_merge($list,$this->tidyFiles($path.'/'.$v));
+            if(is_dir($src . $v)){
+                $list = array_merge($list,$this->tidyFiles($path . $v . '/'));
             }else{
                 $list[] = [
-                   'file_name' => $v,
-                   'file_md5' => md5_file($path.'/'.$v)
+                   'file_name' => $path . $v,
+                   'file_md5' => md5_file($src . $v)
                 ];
             }
         }
@@ -79,8 +84,38 @@ class PackFile{
         return true;
     }
 
+    public function generateFileZip(string $path = ''):string
+    {
+        $path = '/mnt/d/phpenv/www';
+        $develop = $path.'/develop.zip';
+
+        if(file_exists($develop)){
+            unlink($path.'/develop.zip');
+        }
+
+        if(! file_exists($develop)){
+            echo touch($develop);
+        }
+
+        $zip = (new \ZipArchive());
+        $res = $zip->open($path.'/develop.zip',\ZipArchive::CREATE);
+        if(! $res){
+            throw new \Exception('版本压缩文件不能创建');
+        }
+        $file = $this->tidyFiles();
+
+        foreach ($file as $v){
+            $zip->addFile(self::file . $v['file_name'],ltrim($v['file_name'],$path));
+        }
+
+        $zip->close();
+        return $path.'/develop.zip';
+    }
+
 }
 
-$res =  (new PackFile)->tidyFiles();
-echo count($res??[]);
-echo json_encode($res);
+try {
+    echo (new PackFile())->generateFileZip();
+}catch (\Throwable $e){
+    throw new \Exception($e);
+}
