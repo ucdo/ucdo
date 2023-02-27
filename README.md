@@ -1,4 +1,3 @@
-### Hi there ucdo👋
 ![](assets/Bottom_up.svg)
 
 <!--   my-icons -->
