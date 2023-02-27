@@ -1,8 +1,3 @@
-<h1 align="center">
-  <a href="https://sunguoqi.com/">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines= fmt.Println(%22Hope%20you%20happy%20everyday%22);&center=true&size=19">
-  </a>
-</h1>
 
 <p align="center">
   👑   Some GitHub statistical reports:
