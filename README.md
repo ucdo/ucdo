@@ -1,3 +1,4 @@
+# 🐘
 <p align="center">
   👑   Some GitHub statistical reports:
 </p>
@@ -13,11 +14,6 @@
   🐘
 </p>
 
-<p>
-  [!open_resource](https://www.zhihu.com/question/27601390/answer/37285568)
-
-</p>
-<p>
-  [!framework](https://www.zhihu.com/question/26635323/answer/33812516)
-</p>
+[!open_resource](https://www.zhihu.com/question/27601390/answer/37285568)
+[!framework](https://www.zhihu.com/question/26635323/answer/33812516)
 
