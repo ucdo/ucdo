@@ -13,6 +13,3 @@
   🐘
 </p>
 
-1. [open_resource](https://www.zhihu.com/question/27601390/answer/37285568)
-2. [framework](https://www.zhihu.com/question/26635323/answer/33812516)
-
