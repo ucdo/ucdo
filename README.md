@@ -1,7 +1,7 @@
 # Hi there 👋 
 <h1 align="center">
   <a href="https://sunguoqi.com/">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=fmt.Println(%22Hope%20you%20happy%20everyday%22);&center=true&size=16">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=fmt.Println(%22Much%20butter%20than%20before!%22);&center=true&size=16">
   </a>
 </h1>
 
